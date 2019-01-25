@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="275dp"
+    android:id="@+id/endHandLayout">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/endHandText"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:text=""> </TextView>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:id="@+id/nextHandButton"
+        android:text="Next Hand"> </Button>
+
+</LinearLayout>
